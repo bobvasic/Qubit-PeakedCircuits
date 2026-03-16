@@ -1,0 +1,29 @@
+{
+  "P1": {
+    "name": "Little Peak",
+    "peak_bitstring": "1001",
+    "peak_value": 0.6693459153175354,
+    "device": "cpu",
+    "runtime_ms": 12,
+    "cost": 0.0,
+    "num_qubits": 4
+  },
+  "P2": {
+    "name": "Swift Rise",
+    "peak_bitstring": "1100101101100011011000011100",
+    "peak_value": 0.34876549243927,
+    "device": "cpu",
+    "runtime_ms": 29224,
+    "cost": 0.0,
+    "num_qubits": 28
+  },
+  "P3": {
+    "name": "Sharp Peak",
+    "peak_bitstring": "10001101010101010000011111001101000100011010",
+    "peak_value": 1101,
+    "device": "mps.cpu",
+    "runtime_ms": 127933,
+    "cost": 0.0,
+    "num_qubits": 44
+  }
+}
