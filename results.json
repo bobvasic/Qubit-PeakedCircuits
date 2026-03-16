@@ -25,5 +25,13 @@
     "runtime_ms": 127933,
     "cost": 0.0,
     "num_qubits": 44
+  },
+  "P7": {
+    "name": "Heavy Hex 1275",
+    "peak_bitstring": "010111101100111111010001000101001110101110100",
+    "peak_value": 1,
+    "device": "ibm_fez",
+    "num_qubits": 45,
+    "job_id": "d6s8jjjbjfas73fo58gg"
   }
 }
