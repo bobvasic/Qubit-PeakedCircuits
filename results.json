@@ -28,13 +28,16 @@
   },
   "P7": {
     "name": "Heavy Hex 1275",
-    "peak_bitstring": "010111101100111111010001000101001110101110100",
+    "peak_bitstring": "010111111111101111100110111100001100011001010",
     "peak_value": 1,
-    "device": "ibm_fez",
+    "device": "mps.cpu",
+    "runtime_ms": 1503382,
+    "cost": 0.0,
     "num_qubits": 45,
-    "job_id": "d6s8jjjbjfas73fo58gg",
-    "warning": "IBM QPU result unreliable - circuit too deep, all counts=1 (noise)",
-    "reliable": false
+    "bond_dim": 256,
+    "shots": 10000,
+    "reliable": false,
+    "warning": "MPS bond_dim=256 insufficient - all counts=1 (noise)"
   },
   "P5": {
     "name": "Granite Summit",
@@ -45,5 +48,16 @@
     "job_id": "d6s8kg790okc73es0at0",
     "warning": "IBM QPU result unreliable - circuit too deep, all counts=1 (noise)",
     "reliable": false
+  },
+  "P8": {
+    "name": "Grid 888 iSwap",
+    "peak_bitstring": "0011011011111101101100111101110000111100",
+    "peak_value": 1,
+    "device": "mps.cpu",
+    "runtime_ms": 1172548,
+    "cost": 0.0,
+    "num_qubits": 40,
+    "bond_dim": 256,
+    "shots": 10000
   }
 }
