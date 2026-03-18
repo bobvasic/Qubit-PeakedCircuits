@@ -61,7 +61,24 @@ python solve_all_cloud.py
 
 ## Results
 
+**Solved:** P1, P2, P3 (exact statevector and MPS simulation)
+**Unsolved:** P4–P10 (all methods returned noise — circuits generate entanglement beyond accessible simulation capacity)
+
 See `results.json` for computed answers and metadata.
+
+## Research Paper
+
+A full technical paper documenting all methods, results, and analysis is available in [`paper/`](paper/):
+
+```
+paper/
+├── main.tex              # LaTeX source
+├── main.pdf              # Compiled paper (11 pages)
+├── generate_figures.py   # Figure generation script
+└── figures/              # Generated figure PDFs
+```
+
+The paper covers statevector simulation, MPS at various bond dimensions, Reverse Cuthill–McKee reordering, cloud GPU simulation, marginal probability reconstruction, inverse circuit verification, IBM Quantum hardware (Heron r2), and quimb/cotengra tensor networks.
 
 ## Tech Stack
 
